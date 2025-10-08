@@ -1,5 +1,6 @@
 package br.com.backend.projetoexemplo.arquitetura1.entity;
 
+import br.com.backend.projetoexemplo.arquitetura1.dto.AlunoRequestDto;
 import br.com.backend.projetoexemplo.arquitetura1.enums.StatusEnum;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -23,6 +24,8 @@ public class Aluno extends Pessoa{
         this.mensalidade = mensalidade;
         this.statusEnum = statusEnum;
     }
+
+
 
     public StatusEnum getStatusEnum() {
         return statusEnum;
