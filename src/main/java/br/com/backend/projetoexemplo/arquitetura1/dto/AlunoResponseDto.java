@@ -24,5 +24,21 @@ public class AlunoResponseDto {
         this.statusEnum = statusEnum;
     }
 
+    public Integer getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public Double getMensalidade() {
+        return mensalidade;
+    }
+
+    public StatusEnum getStatusEnum() {
+        return statusEnum;
+    }
+
 
 }
